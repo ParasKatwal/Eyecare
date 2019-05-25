@@ -1,0 +1,8 @@
+$color:(
+    primary: #450005,
+    secondary: #FFEBD2
+);
+@function color($colorName){
+    @return map-get($map: $color, $key: $colorName )
+};
+

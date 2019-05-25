@@ -1,0 +1,73 @@
+$color:(
+    primary: #450005,
+    secondary: #FFEBD2
+);
+@function color($colorName){
+    @return map-get($map: $color, $key: $colorName )
+};
+
+
+nav{
+    .nav-wrapper{
+        background: color(primary);  /* fallback for old browsers */
+        // background: -webkit-linear-gradient(to right,color(primary) , color(secondary));  /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(to right, color(primary) , color(secondary)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        .brand-logo{
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+        .btn{
+            background: color(secondary);
+            color: color(primary);
+            font-weight: 600;
+        }
+    }
+}
+#mobile-demo{
+    a{
+        color: white;
+    }
+    background: color(primary);
+    .btn{
+        background: color(secondary);
+        color: color(primary);
+    }
+}
+
+.topSection{
+    .parallax-container{
+        .parallax{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .test{
+            margin-top: 25%;
+            h1{
+                font-weight: 700;
+                color: color(primary); 
+            }
+            button{
+                background: color(secondary);
+                color: color(primary);
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.intro{
+    margin-top: 10px;
+    .container{
+        width: 80%;
+    }
+    .def{
+        background: color(secondary);
+        h1, h5, p{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+}
