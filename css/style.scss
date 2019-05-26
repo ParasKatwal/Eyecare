@@ -71,3 +71,47 @@ nav{
         }
     }
 }
+
+.logo{
+    .parallax-container{
+        height: 300px;
+    }
+}
+
+.about{
+    margin-top: 20px;
+    background: url(../images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: color(secondary);
+    .col{
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+.contact{
+    background: color(secondary);
+    .container{
+        width: 80%;
+        p{
+            display: flex;
+        }
+    }
+}
+
+.footer{
+    background: color(primary);
+    color: color(secondary);
+    a{
+        color: color(secondary);
+    }
+    .socialMedia{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        a{
+            font-size: 30px;
+            color: color(secondary);
+        }
+    }
+}

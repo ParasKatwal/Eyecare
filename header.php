@@ -21,8 +21,8 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="#">HOME</a></li>
         <li><a href="#retinopathy">DIABETIC RETINOPATHY ?</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#contact">CONTACT</a></li>
         <li><a href="#" class="waves-effect waves-light btn">SIGNIN / SIGNUP</a></li>
       </ul>
     </div>
@@ -31,8 +31,8 @@
   <ul class="sidenav center" id="mobile-demo">
     <li><a href="#">HOME</a></li>
     <li><a href="#retinopathy">DIABETIC RETINOPATHY ?</a></li>
-    <li><a href="#">ABOUT US</a></li>
-    <li><a href="#">CONTACT</a></li>
+    <li><a href="#about">ABOUT US</a></li>
+    <li><a href="#contact">CONTACT</a></li>
     <li><a href="#" class="waves-effect waves-light btn">SIGNIN / SIGNUP</a></li>
   </ul>
 

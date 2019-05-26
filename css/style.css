@@ -66,4 +66,57 @@ nav .nav-wrapper .btn {
   padding-right: 20px;
   padding-left: 20px;
 }
+
+.logo .parallax-container {
+  height: 300px;
+}
+
+.about {
+  margin-top: 20px;
+  background: url(../images/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFEBD2;
+}
+
+.about .col {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+  background: #FFEBD2;
+}
+
+.contact .container {
+  width: 80%;
+}
+
+.contact .container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  background: #450005;
+  color: #FFEBD2;
+}
+
+.footer a {
+  color: #FFEBD2;
+}
+
+.footer .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer .socialMedia a {
+  font-size: 30px;
+  color: #FFEBD2;
+}
 /*# sourceMappingURL=style.css.map */
