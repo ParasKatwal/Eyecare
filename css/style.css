@@ -1,3 +1,8 @@
+nav {
+  position: fixed;
+  z-index: 2;
+}
+
 nav .nav-wrapper {
   background: #450005;
   /* fallback for old browsers */
@@ -118,5 +123,47 @@ nav .nav-wrapper .btn {
 .footer .socialMedia a {
   font-size: 30px;
   color: #FFEBD2;
+}
+
+.signin {
+  height: 100vh;
+  background: url(../images/signin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signin .container form {
+  background: #FFEBD2;
+  margin-top: 12vh;
+  border-radius: 5%;
+}
+
+.signin .container form .row {
+  padding: 20px;
+}
+
+.signin .container form .row .logo .material-icons {
+  font-size: 60px;
+}
+
+.signup {
+  background: url(../images/signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.signup .container form {
+  background: #FFEBD2;
+  margin-top: 11.5vh;
+  border-radius: 5%;
+}
+
+.signup .container form .row {
+  padding: 20px;
+}
+
+.signup .container form .row .logo .material-icons {
+  font-size: 60px;
 }
 /*# sourceMappingURL=style.css.map */

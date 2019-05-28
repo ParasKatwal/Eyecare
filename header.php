@@ -19,11 +19,11 @@
       <a href="#!" class="brand-logo"><img src="images/logo2.png" alt=""></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">HOME</a></li>
+        <li><a href="index.php">HOME</a></li>
         <li><a href="#retinopathy">DIABETIC RETINOPATHY ?</a></li>
         <li><a href="#about">ABOUT US</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#" class="waves-effect waves-light btn">SIGNIN / SIGNUP</a></li>
+        <li><a href="signin.php" class="waves-effect waves-light btn">SIGNIN / SIGNUP</a></li>
       </ul>
     </div>
   </nav>

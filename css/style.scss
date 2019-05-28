@@ -8,6 +8,8 @@ $color:(
 
 
 nav{
+    position: fixed;
+    z-index: 2;
     .nav-wrapper{
         background: color(primary);  /* fallback for old browsers */
         // background: -webkit-linear-gradient(to right,color(primary) , color(secondary));  /* Chrome 10-25, Safari 5.1-6 */
@@ -112,6 +114,50 @@ nav{
         a{
             font-size: 30px;
             color: color(secondary);
+        }
+    }
+}
+
+.signin{
+    height: 100vh;
+    background: url(../images/signin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container{
+        form{
+            background: #FFEBD2;
+            margin-top: 12vh;
+            border-radius: 5%;
+            .row{
+                padding: 20px;
+                .logo{
+                    .material-icons{
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.signup{
+    background: url(../images/signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .container{
+        form{
+            background: #FFEBD2;
+            margin-top: 11.5vh;
+            border-radius: 5%;
+            .row{
+                padding: 20px;
+                .logo{
+                    .material-icons{
+                        font-size: 60px;
+                    }
+                }
+            }
         }
     }
 }
