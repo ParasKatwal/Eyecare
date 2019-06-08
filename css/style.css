@@ -133,7 +133,7 @@ nav .nav-wrapper .btn {
 }
 
 .signin .container form {
-  background: #FFEBD2;
+  background: rgba(255, 235, 210, 0.9);
   margin-top: 12vh;
   border-radius: 5%;
 }
@@ -154,7 +154,7 @@ nav .nav-wrapper .btn {
 }
 
 .signup .container form {
-  background: #FFEBD2;
+  background: rgba(255, 235, 210, 0.9);
   margin-top: 11.5vh;
   border-radius: 5%;
 }

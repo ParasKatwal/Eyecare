@@ -125,7 +125,8 @@ nav{
     background-repeat: no-repeat;
     .container{
         form{
-            background: #FFEBD2;
+            // background: #FFEBD2;
+            background: rgba(255,235,210, 0.9);
             margin-top: 12vh;
             border-radius: 5%;
             .row{
@@ -147,7 +148,7 @@ nav{
     height: 100vh;
     .container{
         form{
-            background: #FFEBD2;
+            background: rgba(255,235,210, 0.9);
             margin-top: 11.5vh;
             border-radius: 5%;
             .row{
