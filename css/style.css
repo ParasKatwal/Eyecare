@@ -166,4 +166,29 @@ nav .nav-wrapper .btn {
 .signup .container form .row .logo .material-icons {
   font-size: 60px;
 }
+
+.prevention {
+  padding-top: 10%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 235, 210, 0.9)), to(rgba(255, 235, 210, 0.3))), url(../images/test.jpg);
+  background-image: linear-gradient(to top, rgba(255, 235, 210, 0.9), rgba(255, 235, 210, 0.3)), url(../images/test.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prevention h3 {
+  color: #450005;
+}
+
+.treatment {
+  background: #FFEBD2;
+}
+
+.treatment h3 {
+  padding: 30px;
+  color: #450005;
+}
+
+.treatment .container {
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
