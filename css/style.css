@@ -55,6 +55,10 @@ nav .nav-wrapper .btn {
   font-weight: 600;
 }
 
+.topSection .parallax-container .test a {
+  color: #450005;
+}
+
 .intro {
   margin-top: 10px;
 }
@@ -190,5 +194,42 @@ nav .nav-wrapper .btn {
 
 .treatment .container {
   width: 80%;
+}
+
+.predict {
+  background: #FFEBD2;
+  font-size: 20px;
+  padding-top: 7%;
+}
+
+.predict .container {
+  width: 80%;
+}
+
+.predict img {
+  width: 100%;
+}
+
+.predict label {
+  border: 1px solid #450005;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 8px;
+  color: #450005;
+}
+
+.predict .fileContainer {
+  margin-top: 100px;
+}
+
+.predict button {
+  border: none;
+  background: #450005;
+  color: #FFEBD2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 5px;
 }
 /*# sourceMappingURL=style.css.map */

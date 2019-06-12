@@ -18,6 +18,7 @@
 <body>
 
 <?php include('welcomeHeader.php') ?>
+<?php include('predict.php') ?>
 
 <div class="prevention">
     <div class="container row scrollspy" id="prevention">

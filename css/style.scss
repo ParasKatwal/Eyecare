@@ -56,6 +56,9 @@ nav{
                 color: color(primary);
                 font-weight: 600;
             }
+            a{
+                color: #450005;
+            }
         }
     }
 }
@@ -183,4 +186,40 @@ nav{
     .container{
         width: 80%;
     }
+}
+
+.predict{
+    background: #FFEBD2;
+    font-size: 20px;
+    padding-top: 7%;
+    .container{
+        width: 80%;
+    }
+    img{
+        width: 100%;
+    }
+    input[type="file"]{
+        
+    }
+    label{
+        border: 1px solid #450005;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 8px;
+        color: #450005;
+    }
+    .fileContainer{
+        margin-top: 100px;
+    }
+    button{
+        border: none;
+        background: #450005;
+        color: #FFEBD2;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    
 }

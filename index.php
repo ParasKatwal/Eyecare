@@ -22,7 +22,7 @@
             <div class="parallax"><img src="images/bg.jpg"></div>
             <div class="test center-align">
                 <h1>Test Your Eye</h1>
-                <button class="waves-effect waves-light btn-large">Upload image</button>
+                <button class="waves-effect waves-light btn-large"><a href="signin.php">Upload image</a></button>
             </div>
         </div>
     </div>
